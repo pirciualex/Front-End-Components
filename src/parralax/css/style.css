@@ -1,3 +1,33 @@
+/*=======================
+		1. Global
+=========================*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/*=========================
+		2. Layout
+===========================*/
+
+/*==========================
+	2.1. Transitions Area
+============================*/
+.pbg {
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .pbg1 {
   background-image: url(../img/header.jpg);
   min-height: 100%;
