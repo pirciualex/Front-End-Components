@@ -1,0 +1,51 @@
+/*=======================
+		1. Global
+=========================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d0e49e;
+}
+
+/*=========================
+		2. Layout
+===========================*/
+
+/*=========================
+	2.1. Navigation Area
+===========================*/
+.navigation {
+  width: 100%;
+  background-color: #202008;
+  font-size: 3em;
+  padding: 0.25em;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #99c52a;
+  font-family: "Parisienne", cursive;
+  border-bottom: 1px solid transparent;
+  transition: border 500ms;
+}
+
+.navigation a:hover {
+  border-color: #99c52a;
+}
+
+/*=======================
+		3. Components
+=========================*/
+
+/*=======================
+	3.1. Flex container
+=========================*/
+.flex {
+  display: flex;
+  justify-content: center;
+}
