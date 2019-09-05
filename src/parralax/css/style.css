@@ -1,0 +1,14 @@
+.pbg1 {
+  background-image: url(../img/header.jpg);
+  min-height: 100%;
+}
+
+.pbg2 {
+  background-image: url(../img/transition1.jpg);
+  min-height: 60%;
+}
+
+.pbg3 {
+  background-image: url(../img/transition2.jpg);
+  min-height: 60%;
+}
