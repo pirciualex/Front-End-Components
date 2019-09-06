@@ -38,6 +38,24 @@ body {
   border-color: #99c52a;
 }
 
+/*=========================
+	2.3. Gallery Area
+===========================*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 1.5em;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+}
+
 /*=======================
 		3. Components
 =========================*/
