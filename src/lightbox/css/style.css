@@ -132,5 +132,9 @@ header p {
 }
 
 #lightbox.active img {
-  height: 50%;
+  max-height: 70%;
+  padding: 0.5em;
+  background-color: #000;
+  border: #d0e49e solid 2px;
+  border-radius: 0.2em;
 }

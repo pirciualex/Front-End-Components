@@ -9,10 +9,15 @@ images.forEach(image => {
     lightbox.classList.add("active");
     const img = document.createElement("img");
     img.src = image.src;
+    while (lightbox.firstChild) {
+      lightbox.removeChild(lightbox.firstChild);
+    }
     lightbox.appendChild(img);
   });
 });
 
 lightbox.addEventListener("click", e => {
-  lightbox.classList.remove("active");
+  if (e.target == e.currentTarget) {
+    lightbox.classList.remove("active");
+  }
 });
