@@ -1,5 +1,5 @@
 /*=======================
-		1. Global
+		  1. Global
 =========================*/
 
 * {
@@ -17,11 +17,15 @@ html {
 }
 
 /*=========================
-		2. Layout
+		  2. Layout
 ===========================*/
 
 /*==========================
-	2.1. Transitions Area
+	  2.1. Transitions Area
+============================*/
+
+/*==========================
+	  2.1.1 Background
 ============================*/
 .pbg {
   position: relative;
@@ -48,7 +52,30 @@ html {
 }
 
 /*==========================
-	2.2. Info Section Area
+	  2.1.1 Text
+============================*/
+
+.pbg h1,
+h3 {
+  background-color: #911830;
+  padding: 0.75em 0.5em;
+  color: #f3f2ed;
+  text-transform: uppercase;
+}
+
+.pbg h1 {
+  font-size: 2.8em;
+  letter-spacing: 0.2em;
+  font-family: "Audiowide", cursive;
+}
+
+.pbg h3 {
+  font-size: 2.5em;
+  letter-spacing: 0.2em;
+}
+
+/*==========================
+	  2.2. Info Section Area
 ============================*/
 .info-section {
   flex-direction: column;
@@ -68,11 +95,11 @@ html {
 }
 
 /*=========================
-		3. Components
+		  3. Components
 ===========================*/
 
 /*==========================
-	3.1. Flex component
+	  3.1. Flex component
 ============================*/
 .flex {
   display: flex;
